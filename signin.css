@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(206, 177, 128);
+    background-image: linear-gradient(pink, rgb(231, 207, 162));
+}
+.container{
+    background-color: white;
+    margin: 25px;
+    margin-left: 560px;
+    height: 770px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px rgb(0 0 0 / 0.50);
+}
+#table{ 
+    margin-left: 25px;
+    padding: 5px;
+}
+#heading{
+    font-size: 38px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+}
+.form{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+.TextBox{
+    float: right;
+    width: 400px;
+    height: 40px;
+    margin: 11px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    border-bottom: 2px solid black;
+}
+#button{
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+    margin-left: 44px;
+    background-image: linear-gradient(rgb(255, 173, 186), rgb(231, 207, 162));
+    border: none;
+    color: white;
+    font-size: larger;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 3px 3px 2px rgb(0 0 0 / 0.50);
+}
+#atag{
+    float: right;
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.img{
+    position: relative;
+    padding-left: 18px;
+    width: 50px;
+    height: 50px;
+}
+#signup{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 217px;
+    font-family: 'Poppins', sans-serif;
+}
